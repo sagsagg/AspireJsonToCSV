@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+specifiers:
+  json-2-csv: ^4.0.0
+
+dependencies:
+  json-2-csv: 4.0.0
+
+packages:
+
+  /deeks/3.0.0:
+    resolution: {integrity: sha512-go4YE5vDMzDNzC9OqK7iIQd6agUUqZdBiw3TD2niRxsKGdGdB1FW8eZdrWsyCRZCNkBjV5Vutcx5uT1AikEPCg==}
+    engines: {node: '>= 16'}
+    dev: false
+
+  /doc-path/4.0.0:
+    resolution: {integrity: sha512-By/OF7rbws/bgExPZW10gHASoy3sACwXKKpKBIzYk/E19nX8q8IbILbreCeCYAVFIcO9FOxDjFYbm45wvn4I6w==}
+    engines: {node: '>=16'}
+    dev: false
+
+  /json-2-csv/4.0.0:
+    resolution: {integrity: sha512-r8WXuuLgVbeufMuCyzUXSp8VP9YK4BTuzM7rTG0X85MPKuHKa8JD6LHrp0rEKVCtBSgHA3LMu/VjrZHx+851DQ==}
+    engines: {node: '>= 16'}
+    dependencies:
+      deeks: 3.0.0
+      doc-path: 4.0.0
+    dev: false
