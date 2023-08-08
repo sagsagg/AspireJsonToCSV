@@ -1,1 +1,18 @@
-{}
+{
+    "payable.create.form.reporting.title": "Reporting",
+    "payable.create.form.optional": "optional",
+    "debit-cards.issue.reporting.tooltip": "All transactions done using this card will be linked to the selected values by default",
+    "debit-cards.request.reporting.empty": "N.A",
+    "claims.labels.claim-section-title": "Claim details",
+    "claims.labels.reporting-section-title": "Reporting",
+    "settings.reporting-fields.clear-selection": "Clear selection",
+    "settings.category-management.detail.cta.deactivate-only": "Deactivate only",
+    "settings.reporting-fields.update.delete-confirm-title": "Do you want to delete the field instead?",
+    "settings.reporting-fields.manage-categories": "Manage categories",
+    "settings.reporting-fields.update.deactivate-confirm-description": "* The reporting field cannot be filled for any new transactions.\n * All existing records will retain the deactivated field.",
+    "settings.reporting-fields.update.delete-confirm-description": "Since this reporting field has not been used\n in any records, you can delete the\n field instead of deactivating it.",
+    "settings.reporting-fields.introduce.description": "Want to capture additional information for your records? Try out the new Reporting fields feature.",
+    "settings.reporting-fields.delete.confirm-popup": "Field deleted successfully",
+    "transfer.details.schedule-select-label": "Schedule",
+    "transfer.details.schedule-select-cta": "Schedule transfer"
+}
