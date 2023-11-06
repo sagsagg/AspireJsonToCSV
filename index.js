@@ -49,12 +49,12 @@ const convertToSingleObject = (dataArray) => {
     }, {});
 }
 
-// convertCsvToJson('./data/translations.csv', (error, jsonData) => {
-//     if (error) {
-//         console.error('Error converting CSV to JSON:', error);
-//     } else {
-//         fs.writeFileSync('translation.json', JSON.stringify(convertToSingleObject(jsonData)))
-//     }
-// });
+convertCsvToJson('./data/translations.csv', (error, jsonData) => {
+    if (error) {
+        console.error('Error converting CSV to JSON:', error);
+    } else {
+        fs.writeFileSync('translation.json', JSON.stringify(convertToSingleObject(jsonData)))
+    }
+});
 
-convertJson2CSV();
+// convertJson2CSV();
